@@ -4,7 +4,7 @@ class class App
   get '/' do
     "Hello World"
   end
-  class App < Sinatra::Base
+  
 
   get '/food_form' do
     erb :food_form
